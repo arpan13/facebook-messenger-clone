@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #4bcffa;
 }
 
 .App-logo {
@@ -35,4 +36,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 100%;
+  margin: 20px;
+}
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  text-align: center;
+}
+.app__input {
+  flex: 0.9;
+}
+.app__iconbutton {
+  flex: 0.1;
 }
